@@ -1,10 +1,26 @@
-/coin-hub
-│── index.html
-│── style.css
-│── script.js
-│── images/
-│   ├── logo.png
-│   ├── balloon.png (Balloon image)
-│── music/
-│   ├── song1.mp3
-│   ├── song2.mp3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Balloon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Coin Hub Logo" class="logo">
+        <h1>Tap Balloons to Earn Bitcoin!</h1>
+    </header>
+
+    <div class="game-container">
+        <h2>Bitcoin Balance: <span id="bitcoinBalance">0.00000000</span> BTC</h2>
+        <div id="gameArea"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Coin Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
