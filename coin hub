@@ -1,0 +1,10 @@
+/coin-hub
+│── index.html
+│── style.css
+│── script.js
+│── images/
+│   ├── logo.png
+│   ├── balloon.png (Balloon image)
+│── music/
+│   ├── song1.mp3
+│   ├── song2.mp3
